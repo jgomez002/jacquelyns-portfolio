@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Connection;
+    src: url("media/ConnectionIi-2wj8.otf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: Connection;
+}
+
+.bg1{
+  background-color: #acbaa1;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(6,1fr);
+  justify-items:center;
+  background-color: #dad7cd;
+  width: 35vw;
+  height: 50vh;
+  border-width: 0px;
+}
+
+.login-item1{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.qcenter{
+  text-align: center;
+}
