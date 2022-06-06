@@ -3,11 +3,11 @@ function validate(){
   {
 
     if (password == "perspective") {
-      alert("slayyyy");
+      // alert("slayyyy");
       window.location.href = "desktop.html";
     }
     else {
-      alert("deslay sad");
+      // alert("deslay sad");
     }
   }
 }

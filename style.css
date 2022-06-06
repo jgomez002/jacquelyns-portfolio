@@ -14,6 +14,29 @@
   background-color: #acbaa1;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: #c3c7cb;
+    width: 100%;
+    color: #000000;
+    padding: 1rem;
+}
+     .navbar a {
+       color: #000000;
+       padding: 2rem;
+       text-decoration: none;
+       font-size: 2vmin;
+     }
+
+     .navbar a:hover {
+       color: #000000;
+     }
+
+     .navbar a.active {
+       color: #000000;
+     }
+
+
 .container{
   display: flex;
   align-items: center;
@@ -21,27 +44,33 @@
   height: 100vh;
 }
 
-.login{
+.login-grid{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-template-rows: repeat(7,1fr);
   justify-items:center;
+  grid-column: 1/5;
+  grid-row:1/8;
   background-color: #dad7cd;
-  width: 35vw;
-  height: 50vh;
+  width: 35vmax;
+  height: 50vmin;
   border-width: 0px;
 }
 
 .login-item1{
   grid-column: 2/4;
   grid-row: 2/3;
+  height:15vmin;
+  width:17vmin;
 }
 
 .login-item2{
   grid-column: 2/4;
   grid-row: 3/4;
-  font-size: 1.05rem;
+  /* font-size: 1.05rem; */
+  font-size: 2vmin;
   padding-top: 1rem;
+  height: auto;
 }
 
 .login-item3{
@@ -54,6 +83,7 @@
   grid-column: 3/4;
   grid-row: 4/5;
   height: 75%;
+  width: 20vmin;
 }
 .login-item5{
   grid-column: 2/4;
